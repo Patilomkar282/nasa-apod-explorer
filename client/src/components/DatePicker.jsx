@@ -5,7 +5,7 @@ const DatePicker = () => {
     const [date, setDate] = useState('');
     const navigate = useNavigate();
     const maxDate = new Date().toISOString().split('T')[0];
-    const minDate = '1995-06-16'; // First APOD date
+    const minDate = '1995-06-16'; 
 
     const handleDateChange = (e) => {
         setDate(e.target.value);
